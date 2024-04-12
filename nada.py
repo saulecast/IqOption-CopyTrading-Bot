@@ -7,8 +7,8 @@ from iqoptionapi.stable_api import IQ_Option
 
 
 # Credenciales para las cuentas
-username_origen = 'uncastilloteorico@gmail.com'
-password_origen = 'Esesan:29a8D8Xv'
+username_origen = 'ejemplo@gmail.com'
+password_origen = 'contraseña'
 
 class Trade():
     def __init__(self, username_destino, password_destino, bot, chat_id):
