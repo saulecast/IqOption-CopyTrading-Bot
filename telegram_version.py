@@ -15,8 +15,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Credenciales para las cuentas
-username_origen = 'uncastilloteorico@gmail.com'
-password_origen = 'Esesan:29a8D8Xv'
+username_origen = 'ejemplo@gmail.com'
+password_origen = 'contraseña'
 
 # Leer las credenciales de la segunda cuenta desde el archivo
 def read_second_account_credentials(filename):
@@ -32,7 +32,7 @@ def read_second_account_credentials(filename):
         expiration_date = datetime(2023, 12, 31)  # Año, mes, día
 
         # Verificar si el usuario es el permitido
-        if username == "uncastilloteorico@gmail.com": #jeestrella15@gmail.com
+        if username == "ejemplo@gmail.com": #jeestrella15@gmail.com
             # Verificar si la fecha no ha expirado
             if datetime.now() <= expiration_date:
                 print("Usuario permitido y fecha válida")
